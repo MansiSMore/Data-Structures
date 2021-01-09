@@ -1,2 +1,2 @@
 # Tree
-Tree is a mnon-linear data structure for non-linear access.
+Tree is a non-linear data structure for non-linear access.
