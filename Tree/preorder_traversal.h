@@ -1,4 +1,4 @@
-#include "binary_tree_header.h"
+#include "binary_search_tree_header.h"
 
 //Preorder Traversal :: Data - Light - Right(D - L - R).
 void preorder(TNODE head)
