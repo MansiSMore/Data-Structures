@@ -1,4 +1,4 @@
-#include "binary_tree_header.h"
+#include "binary_search_tree_header.h"
 
 //Count the number of nodes from a tree.
 int count(TNODE head)
