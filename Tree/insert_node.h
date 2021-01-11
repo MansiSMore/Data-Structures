@@ -1,4 +1,4 @@
-#include "binary_tree_header.h"
+#include "binary_search_tree_header.h"
 
 //Inserting a node in a tree
 void insertNode(TTNODE head, int data)
