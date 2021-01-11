@@ -1,4 +1,4 @@
-#include "binary_tree_header.h"
+#include "binary_search_tree_header.h"
 
 //Searching for an value from a tree
 bool searchNode(TNODE head, int data)
