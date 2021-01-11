@@ -1,4 +1,4 @@
-#include "binary_tree_header.h"
+#include "binary_search_tree_header.h"
 
 //Inorder Traversal :: Left - Data - Right(L - D - R).
 void inorder(TNODE head)
