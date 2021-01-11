@@ -1,4 +1,4 @@
-#include "binary_tree_header.h"
+#include "binary_search_tree_header.h"
 /*
 You can include any .h file according to your need.
 example : For counting all the nodes of a tree, include count_all_nodes.h file.
