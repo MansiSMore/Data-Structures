@@ -8,6 +8,7 @@ int countLeafNodes(TNODE head)
 		return 0;
 	}
 	
+	//Leaf Nodes.
 	if(head -> left == NULL && head -> right == NULL)
 	{
 		return 1;
