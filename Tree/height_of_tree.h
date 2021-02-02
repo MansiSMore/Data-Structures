@@ -4,18 +4,16 @@
 int heightOfTree(TNODE head)
 {
 	int lheight = 0, rheight = 0;	
-	if(head == NULL)
-	{
+	if((head == NULL) || (head -> left == NULL && head -> right == NULL))
 		return 0;
-	}
 	else
 	{
-		lheight += sizeOfTree(head -> left);
-		rheight += sizeOfTree(head -> right);
+		lheight = heightOfTree(head -> left);
+		rheight = heightOfTree(head -> right);
 		
 		if(lheight > rheight)
-			return lheight;
+			return lheight + 1;
 		else
-			return rheight;
+			return rheight + 1;
 	}
 }
