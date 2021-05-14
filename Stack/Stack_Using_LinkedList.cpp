@@ -36,7 +36,6 @@ class Stack
 };
 
 //Function definitions of Stack Class
-
 //Default Constructor
 Stack :: Stack()
 {
@@ -149,14 +148,14 @@ int main()
 	cout << "Initially top is : " << sobj->top << "\n\n";
 	sobj -> push(10);
 	sobj -> push(20);
-	cout << "Top after pushing some values in stack : " << sobj->top << "\n\n";
+	cout << "Top after pushing some values in stack : " << sobj->top->data << "\n\n";
 	cout << "Length of stack before pop : " << (*sobj).length() << "\n\n";
 	cout << "Value which is popped : " << sobj->pop() << "\n\n";
 	cout << "Length of stack after pop : " << (*sobj).length() << "\n\n";
 	sobj -> push(30);
 	sobj -> push(40);
 	sobj -> push(50);
-	cout << "Final value of top : " << sobj->top << "\n\n";
+	cout << "Final value of top : " << sobj->top->data << "\n\n";
 	cout << "Final Length of stack : " << (*sobj).length() << "\n\n";
 	sobj -> display();
 
