@@ -1,4 +1,4 @@
-//Binary Tree in C
+//Binary Search Tree in C
 
 #include <stdio.h>
 #include <stdlib.h>
