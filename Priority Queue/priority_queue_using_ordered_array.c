@@ -101,7 +101,7 @@ void dequeue()
 	}
 }
 
-//peek : get the highest priority element in the queue without removing it from the queue.
+//topElement : get the highest priority element in the queue without removing it from the queue.
 int topElement()
 {
 	if(ind == -1)
