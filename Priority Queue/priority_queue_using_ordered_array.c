@@ -1,5 +1,8 @@
 //Priority queue using Array (Ordered Array).
 //The element is inserted in such a way that the array remains ordered i.e. the largest priority is always in the end. 
+// In ordered array enqueue operation takes O(n) time complexity because it enters elements in sorted order in queue. 
+//And deletion takes O(1) time complexity. 
+
 #include <stdio.h>
 #include <stdlib.h>
 
